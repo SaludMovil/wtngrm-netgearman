@@ -28,7 +28,7 @@ class GearmanWorkerServiceTest extends \PHPUnit_Framework_TestCase
     {
         $this->
             markTestSkipped();
-        $this->mock = $this->getMock('\GearmanWorker');
+        $this->mock = $this->getMock('\Net\Gearman\Worker');
         $this->mock->expects($this->any())
                     ->method('addServer');
 
