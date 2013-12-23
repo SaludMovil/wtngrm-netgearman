@@ -2,8 +2,8 @@
 return array(
     'service_manager' => array(
         'factories' => array(
-            'Desyncr\Wtngrm\Netgearman\Service\NetgearmanService'  => 'Desyncr\Wtngrm\Netgearman\Factory\NetgearmanServiceFactory',
-            'Desyncr\Wtngrm\Netgearman\Service\NetgearmanWorkerService'  => 'Desyncr\Wtngrm\Netgearman\Factory\NetgearmanWorkerServiceFactory'
+            'Desyncr\Wtngrm\Netgearman\Service\GearmanService'  => 'Desyncr\Wtngrm\Netgearman\Factory\GearmanServiceFactory',
+            'Desyncr\Wtngrm\Netgearman\Service\GearmanWorkerService'  => 'Desyncr\Wtngrm\Netgearman\Factory\GearmanWorkerServiceFactory'
         ),
     ),
     'wtngrm' => array(
