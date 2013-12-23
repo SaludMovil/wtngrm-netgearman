@@ -1,0 +1,40 @@
+{
+    "name": "desyncr/wtngrm-netgearman",
+    "version": "0.0.1",
+    "description": "Zend2 Module for Qeueuing/Background jobs servers - Gearman adapter (Net_Gearman)",
+    "type": "module",
+    "license": "GPL-3.0+",
+    "homepage": "http://github.com/desyncr/wtngrm-netgearman",
+    "keywords": [
+        "zend2", "zf2", "module", "queue", "gearman", "beanstalk"
+    ],
+    "authors": [
+        {
+            "name": "Dario Cavuotti",
+            "email": "dc@syncr.com.ar",
+            "homepage": "http://me.syncr.com.ar",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/desyncr/wtngrm.git"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "zendframework/zendframework": "2.*",
+        "desyncr/wtngrm": "dev-master",
+        "publero/net_gearman": "1.0.x-dev"
+    },
+    "require-dev": {
+        "whatthejeff/nyancat-phpunit-resultprinter": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Desyncr\\Wtngrm\\Netgearman": "src/"
+        }
+    }
+}
