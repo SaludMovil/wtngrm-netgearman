@@ -41,7 +41,7 @@ class GearmanWorkerServiceFactoryTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers Desyncr\Wtngrm\Gearman\Factory\GearmanWorkerServiceFactory::createService
+     * @covers Desyncr\Wtngrm\Netgearman\Factory\GearmanWorkerServiceFactory::createService
      */
     public function testCreateService()
     {
@@ -62,7 +62,7 @@ class GearmanWorkerServiceFactoryTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers Desyncr\Wtngrm\Gearman\Factory\GearmanWorkerServiceFactory::createService
+     * @covers Desyncr\Wtngrm\Netgearman\Factory\GearmanWorkerServiceFactory::createService
      */
     public function testCreateServiceOptions()
     {

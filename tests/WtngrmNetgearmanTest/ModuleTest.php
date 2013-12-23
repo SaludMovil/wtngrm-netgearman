@@ -5,7 +5,7 @@ use PHPUnit_Framework_TestCase;
 use Desyncr\Wtngrm\Module;
 
 /**
- * @covers Desyncr\Wtngrm\Gearman\Module
+ * @covers Desyncr\Wtngrm\Netgearman\Module
  */
 class ModuleTest extends PHPUnit_Framework_TestCase
 {

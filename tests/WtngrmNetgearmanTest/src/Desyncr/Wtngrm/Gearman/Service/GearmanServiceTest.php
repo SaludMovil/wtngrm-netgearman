@@ -42,7 +42,7 @@ class GearmanServiceTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers Desyncr\Wtngrm\Gearman\Service\GearmanService::__construct
+     * @covers Desyncr\Wtngrm\Netgearman\Service\GearmanService::__construct
      */
     public function testConfiguration()
     {
@@ -65,7 +65,7 @@ class GearmanServiceTest extends \PHPUnit_Framework_TestCase
 
 
     /**
-     * @covers Desyncr\Wtngrm\Gearman\Service\GearmanService::dispatch
+     * @covers Desyncr\Wtngrm\Netgearman\Service\GearmanService::dispatch
      */
     public function testDispatch()
     {
@@ -81,7 +81,7 @@ class GearmanServiceTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers Desyncr\Wtngrm\Gearman\Service\GearmanService::dispatch
+     * @covers Desyncr\Wtngrm\Netgearman\Service\GearmanService::dispatch
      */
     public function testDispatchMultipleJobs()
     {
