@@ -14,15 +14,15 @@ class GearmanWorkerService extends Wtngrm\AbstractService {
         }
 
         foreach ($this->servers['workers'] as $server) {
-            // $this->instance->addServer($server['host'], $server['port']);
+            $this->instance->addServer($server['host'], $server['port']);
         }
     }
 
-    public function add($function, $worker) {
-        // $this->instance->addFunction($function, $worker);
+    public function add($function, $worker, $target = null) {
+        $this->instance->addFunction($function, $worker);
     }
 
     public function dispatch() {
-        // return $this->instance->work();
+        return $this->instance->work();
     }
 }
