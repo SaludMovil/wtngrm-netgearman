@@ -1,5 +1,11 @@
 ## Wtngrm-NetGearman
 ---
+***DEPRECATED***
+
+Use [wtngrm-gearman](https://github.com/desyncr/wtngrm-gearman) which support Net_Gearman through configuration.
+
+===
+
 **master:** [![Build Status master](https://api.travis-ci.org/desyncr/wtngrm-netgearman.png?branch=master)](http://travis-ci.org/desyncr/wtngrm-netgearman) |
 **development:** [![Build Status development](https://api.travis-ci.org/desyncr/wtngrm-netgearman.png?branch=development)](http://travis-ci.org/desyncr/wtngrm-netgearman)
 
